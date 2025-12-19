@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Ryan Shìjié Dù <ryan.du@mines.edu>"]
+channels = ["conda-forge"]
+name = "GPGN268-BOOK"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter-book = ">=2.1.0,<3"

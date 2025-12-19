@@ -1,0 +1,55 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 14e88fbc-5e40-4581-accd-2c9d6acee2e6
+  title: Geophysical Data Analysis Book
+  description: A book for the Geophysical Data Analysis course GPGN268 course at Colorad School of Mines.
+  keywords:
+    - geophysics
+    - data analysis
+    - python
+    - jupyter
+  github: GPGN268/GPGN268-BOOK
+  authors: Ryan Shìjié Dù
+  toc:
+    - file: book_pages/landing.md
+    - title: About this book
+      children:
+        - file: LICENSE.md
+    - title: Introduction
+      children:
+        - file: lecture_notes/intro.md
+        - file: book_pages/WSL_on_windows.md
+    - title: Computing basics
+      children:
+        - file: lecture_notes/Filesnnir_commandline.md
+        - file: lecture_notes/vim.md
+        - file: lecture_notes/L05-version-control.md
+        - file: lecture_notes/L06-git-remotes.md
+    # - title: Python basics
+    #   children:
+    #     - file: lecture_notes/L07-intro-python.md
+    #     - file: lecture_notes/L08-intro-jupyter.md
+    #     - file: lecture_notes/L10-exploration.ipynb
+    #     - file: lecture_notes/L13-environments.md
+    # - title: Python for geophysical data analysis
+    #   children:
+    #     - file: lecture_notes/L13-pandas01.ipynb
+    #     - file: lecture_notes/L13-pandas02.ipynb
+    #     - file: lecture_notes/L14-pandas03.ipynb
+    #     - file: lecture_notes/L19-xarray02.ipynb
+    #     - file: lecture_notes/L21-data-formats.ipynb
+    #     - file: lecture_notes/L22-xarray.ipynb
+    #     - file: lecture_notes/L23-cartopy.ipynb
+    # - title: Crash course in statistics
+    #   children:
+    #     - file: lecture_notes/L24-gmprocess.ipynb
+    # - title: Appendix
+    #   children:
+    #     - file: book_pages/appendix.md
+    
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

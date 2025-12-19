@@ -1,0 +1,5 @@
+Copyright (c) [2025] [Ryan Shìjié Dù].
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+
+The contents of this repository combine material from the [Earth and Environmental Data Sciences Book](https://earth-env-data-science.github.io/intro.html), [Software Carpentry Lessons](https://software-carpentry.org/lessons/), [Earth Data Lab courses](https://www.earthdatascience.org/courses/), and the [previous incarnation of this course](https://github.com/archive-GPGN-268-SP2025), all licensed under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) license. All material within this organization are under the same license.

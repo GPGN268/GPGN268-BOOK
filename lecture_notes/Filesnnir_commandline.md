@@ -377,46 +377,6 @@ We found the original source of our well-log data and also lots of information t
 
 
 ## Further command-line functionalities
-### Checking the content of a file
-
-We can use the `cat` command to quickly view the content of a plain text file. For example:
-
-```shell
-$ cat README.md
-```
-
-This prints the entire file content to the screen, which is not ideal for large files. For a partial view, use `head` and `tail`.
-
-```shell
-$ head 372-U1520B_den-nscope.csv
-```
-
-`head` displays the first few lines of a file, while
-
-```shell
-$ tail 372-U1520B_den-nscope.csv
-```
-
-`tail` displays the last few lines. 
-
-You can also specify how many lines you would like to see using the flag `-n`
-
-```shell
-$ tail -n 10 372-U1520B_den-nscope.csv
-```
-
-```shell
-$ head -n 2 README.md 
-```
-
-Another simple task that might be handy is to count how many lines there are in a file. 
-
-```shell
-$ wc README.md
-4    11    90    README.md
-```
-
-The `wc` command displays the total number of lines, words, and bytes for the input (in this case, `README.md`).
 
 ###  Wildcards
 

@@ -15,8 +15,6 @@
 - Move and rename specified files and/or directories.
 - Describe machine and human readable names and the importance of using them to name directories and files.
 - Delete files and directories
-- Create and edit files using an editor
-- Check the content of a text file using cat, head, tail, and wc
 - Use wildcards and pipes to operate on multiple files and combine operations
 
 ## Introducing the Shell

@@ -1,4 +1,8 @@
-# VIM
+# Viewing and editing text files (cat and VIM)
+
+## Learning Objectives
+- Create and edit files using an editor
+- Check the content of a text file using cat, head, tail, and wc
 
 ## Creating files
 

@@ -23,7 +23,7 @@ project:
     - title: Computing basics
       children:
         - file: lecture_notes/Filesnnir_commandline.md
-        - file: lecture_notes/vim.md
+        - file: lecture_notes/view_edit_textfile.md
         - file: lecture_notes/L05-version-control.md
         - file: lecture_notes/L06-git-remotes.md
     # - title: Python basics

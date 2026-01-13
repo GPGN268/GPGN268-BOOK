@@ -1,7 +1,4 @@
-# Files and directories, and the command-line
-## To-do
-- Move data to github
-- Update file directories so it's uniform across PC and MAC
+# Files and directories, and the command line
 
 ## Learning Objectives
 - Explain the similarities and differences between a file and a directory.
@@ -17,7 +14,7 @@
 - Delete files and directories
 - Use wildcards and pipes to operate on multiple files and combine operations
 
-## Introducing the Shell
+## Introducing the shell
 
 Modern computers have graphical user interfaces (known as GUIs) that make it easy to perform tasks. While the visual aid of a GUI makes it intuitive to learn, this way of delivering instructions to a computer scales very poorly. Imagine the following task: for a literature search, you have to copy the third line of one thousand text files in one thousand different directories and paste it into a single file. Using a GUI, you would not only be clicking at your desk for several hours, but you could potentially also commit an error in the process of completing this repetitive task. This is where we take advantage of the Unix shell. The Unix shell is both a **command-line interface** (CLI) and a scripting language, allowing such repetitive tasks to be done automatically and fast. With the proper commands, the shell can repeat tasks with or without some modification as many times as we want. Using the shell, the task in the literature example can be accomplished in seconds
 
@@ -70,7 +67,7 @@ Inside that directory are several other directories:  `Library` (for the soft
 :class: dropdown
 Note that the `Terminal` uses forward slashes (`/`) to indicate directories within a path. This differs from the Windows File Explorer which uses backslashes (`\`) to indicate directories within a path. Your home directory might look something like `C:\Documents and Settings\nelle` or `C:\Users\nelle` depending on your Windows version. You can access your C drive using `/mnt/c`.
 
-To follow the note below, you should type `cd /mnt/c` to go to the C Drive.
+To follow the note below, you should type `cd /mnt/c/Users/yourusername`.
 :::
 
 Now let’s learn the command that will let us see the contents of our own filesystem. We can see what’s in our home directory by running `ls`, which stands for “listing”:
@@ -522,7 +519,6 @@ $ rm -r research
 -   An absolute path specifies a location from the root of the file system.
 -   Directory names in a path are separated with `/` on Unix, but `\` on Windows.
 -   `..` means "the directory above the current one"; `.` on its own means ‘the current directory’.
--   Most files’ names are `something.extension`. The extension isn’t required, and doesn’t guarantee anything, but is normally used to indicate the type of data in the file.
 -   Most commands take options (flags) which begin with a ‘-‘.
 -   `mkdir [path]` creates a new directory.
 -   `mv [old] [new]` moves (renames) a file or directory.  
@@ -531,7 +527,6 @@ $ rm -r research
 -   `rm [path]` removes (deletes) a file.
 -   `*` matches zero or more characters in a filename, so `*.txt` matches all files ending in `.txt`.
 - wc counts lines, words, and characters in its inputs.
-- cat displays the contents of its inputs.
 - sort sorts its inputs.
 - head displays the first 10 lines of its input.
 - tail displays the last 10 lines of its input.

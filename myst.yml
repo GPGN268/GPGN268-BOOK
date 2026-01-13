@@ -22,7 +22,7 @@ project:
         - file: book_pages/WSL_on_windows.md
     - title: Computing basics
       children:
-        - file: lecture_notes/Filesnnir_commandline.md
+        - file: lecture_notes/Filesndir_commandline.md
         - file: lecture_notes/view_edit_textfile.md
         - file: lecture_notes/L05-version-control.md
         - file: lecture_notes/L06-git-remotes.md

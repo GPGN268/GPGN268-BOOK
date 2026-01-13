@@ -1,3 +1,5 @@
+Generative AI tools has been used to solely improve style of language in this note.
+
 Copyright (c) [2025] [Ryan Shìjié Dù].
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.

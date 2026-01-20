@@ -216,7 +216,7 @@ Run `pwd` and `ls -F` to ensure that we’re in the directory we expect.
 
 ### Tab Completion
 
-Typing the full path to directories and files can be slow and annoying. Fortunately, we have “tab completion” to help us. From your home, try typing `cd De` and then press the `<tab>`. The system will try to “auto complete” your command. Pressing tab twice brings up a list of all the files, and so on. This is called **tab completion**, and we will see it in many other tools as we go
+Typing the full path to directories and files can be slow and annoying. Fortunately, we have “tab completion” to help us. From your home, try typing `cd De` and then press the `<tab>`. The system will try to “auto complete” your command. Pressing tab twice brings up a list of all the files, and so on. This is called **tab completion**, and we will see it in many other tools as we go.
 
 ## File and Directory Organization
 ### Importance of Directory and File Names

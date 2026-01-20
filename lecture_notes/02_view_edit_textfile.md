@@ -17,7 +17,7 @@ In this course, you will need some basic Vim skills, so this is what we will foc
 ### Getting started with vim 
 Now let's navigate to our data directory and create a text file using Vim.
 
-```
+``` shell
 $ cd iodp-logging-data
 $ vim README.md
 ```
@@ -44,7 +44,7 @@ author: Blaster
 Now, to go back to normal mode we hit `esc`. Now, we would like to save our file. To do that, we enter ` :` to go to command mode. Note that a colon appeared at the bottom of the page. This indicates that Vim is ready for our command. In this case, we want to "write" (which is the same as save) and the command for that is `w`. To run the command we hit "return" To exit vim we run `q`, from "quit". 
 
 Now, if you run
-```
+``` shell
 $ ls -F
 ```
 

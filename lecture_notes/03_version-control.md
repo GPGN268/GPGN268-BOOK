@@ -502,15 +502,7 @@ $ git push origin main
 :::
 
 
-
-
-
-
-
-
-
 ## Key Points
-
 -   Version control is like an unlimited ‘undo’.
 -   Version control also allows many people to work in parallel
 -   `git status` shows the status of a repository.

@@ -25,9 +25,9 @@ project:
         - file: lecture_notes/01_Filesndir_commandline.md
         - file: lecture_notes/02_view_edit_textfile.md
         - file: lecture_notes/03_version-control.md
-    # - title: Python basics
-    #   children:
-    #     - file: lecture_notes/L07-intro-python.md
+    - title: Python basics
+      children:
+        - file: lecture_notes/04-intro-python.md
     #     - file: lecture_notes/L08-intro-jupyter.md
     #     - file: lecture_notes/L10-exploration.ipynb
     #     - file: lecture_notes/L13-environments.md

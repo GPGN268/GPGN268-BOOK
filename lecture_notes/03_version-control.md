@@ -490,7 +490,6 @@ $ git remote add origin git@github.com:blaster/resume.git
 ```
 
 ### Push local changes to a remote
-
 Now that authentication is setup, we can return to the remote. This command will push the changes from our local repository to the repository on GitHub:
 
 ``` shell
@@ -500,6 +499,21 @@ $ git push origin main
 :::{attention} What is the difference between a commit and a push?
  When we push changes, we’re interacting with a remote repository to update it with the changes we’ve made locally (often this corresponds to sharing the changes we’ve made with others). Commit only updates your local repository.
 :::
+
+### Pull remote changes to a local
+Now let's imagine if your collaborator of your final project also pushed changes to the remote. To get their changes to your local machine, you can use
+``` shell
+$ git pull
+```
+That will being the changes in Github to your local folder.
+
+### Clone a repository
+Now let's imagine you have found a useful package on Github, and you want to "download" the package to your local machine. You will use `git clone`. As an example, let's clone the code for this book to Desktop.
+``` shell
+$ cd Desktop # change directory to Desktop
+$ git clone git@github.com:GPGN268/GPGN268-BOOK.git
+```
+Now you should see a GPGN268-BOOK folder on your desktop. You can see the code that made this online book. 
 
 
 ## Key Points
@@ -513,3 +527,5 @@ $ git push origin main
 -  A local Git repository can be connected to one or more remote repositories. 
 -   Use the SSH protocol to connect to remote repositories.
 -   `git push` copies changes from a local repository to a remote repository.
+-   `git pull`bring changes from a remote repository to local.
+- `git clone` "download" a pacakge from Github to your local computer.

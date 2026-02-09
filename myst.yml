@@ -28,7 +28,7 @@ project:
     - title: Python basics
       children:
         - file: lecture_notes/04-intro-python.md
-    #     - file: lecture_notes/L08-intro-jupyter.md
+        - file: lecture_notes/05-Jupyter-notebook-VSCode.md
     #     - file: lecture_notes/L10-exploration.ipynb
     #     - file: lecture_notes/L13-environments.md
     # - title: Python for geophysical data analysis

@@ -210,35 +210,3 @@ $ git add python-inyto.py
 $ git commit -m "Add my first python script"
 $ git push
 ```
-
-
-<!-- ## Jupyter Lab
-
-Repeat with me: "Jupyter notebook is not Python"
-
-[JupyterLab](https://jupyterlab.readthedocs.io/) will be our primary method for interacting with the computer. JupyterLab contains a complete environment for interactive scientific computing which runs in your web browser. Jupyter is an open source python project that was started by scientists like yourselves who wanted a more effective way to interact with their computers.
-
-JupyterLab has excellent documentation. Rather than repeat that documentation here, we point you to their docs. The following pages are particularly relevant:
-
--   [The JupyterLab Interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)
-    
--   [Working with Files](https://jupyterlab.readthedocs.io/en/stable/user/files.html)
-    
--   [The Text Editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html)
-    
--   [Notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html)
-    
--   [Terminals](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html)
-    
--   [Managing Kernels and Terminals](https://jupyterlab.readthedocs.io/en/stable/user/running.html)
-    
-
-You will gain experience and familiarity with JupyterLab over the course of the semester as we use it in our weekly lectures and assignments. -->
-
-## Key Points
-- Python is an interpreted, high-level, open-source language widely used in Earth sciences.
-- Variables are names assigned to values using `=`; use short, specific names with underscores (e.g., `denver_precip_in`).
-- Common data types: integers, floating-point numbers, and strings.
-- Built-in functions like `type()` and `print()` help you work with variables.
-- Python scripts saved in `.py` files can be run from the terminal using `python filename.py`.
-- Use Git to track and version control your Python scripts.

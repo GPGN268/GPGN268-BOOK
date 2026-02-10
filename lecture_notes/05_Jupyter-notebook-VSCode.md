@@ -31,10 +31,12 @@ Conda as a _package manager_ helps you find and install packages. Python coupl
 It is strongly recommended to read official [Getting Started with Conda](https://conda.io/docs/user-guide/getting-started.html) guide.
 
 #### Setting up conda
-Let's start setting up conda
+Let's start setting up conda. First, find the script appropriate for you here: https://repo.anaconda.com/miniconda/. Pay attention to your operating system: Linux or MacOSX, and if you are on Mac, if your computer uses an Arm processor.
+
+Now type these into your terminal. You should say yes to all the prompt.
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh -b
+bash Miniconda3-latest-Linux-x86_64.sh
 conda activate
 ```
 
@@ -53,7 +55,7 @@ conda activate GPGN268
 ```
 Now we can install packages we wish to used inside the conda environment. This will only make these packages available inside the environment GPGN268. We will first install packages for running jupyter notebook
 ```
-conda install jupyter ipykernel -y
+conda install jupyter ipykernel
 ```
 When you attempt a run a notebook, you should be able to select GPGN268 as the kernel.
 
@@ -157,7 +159,7 @@ Now let's navigate to our newly created directory
 ```
 cd ~/work/classes/GPGN268/coursework-du/ds00-python-intro
 ```
-And launch VSCode.
+And launch VSCode. If you are on Windows, make sure VSCode is opened connected to your WSL instance.
 
 ### Loading data into Python
 First lets add a Markdown header so we know what this notebook is about.

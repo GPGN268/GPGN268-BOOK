@@ -28,24 +28,8 @@ project:
     - title: Python basics
       children:
         - file: lecture_notes/04_intro-python.md
-        - file: lecture_notes/05_Jupyter-notebook-VSCode.md
-    #     - file: lecture_notes/L10-exploration.ipynb
-    #     - file: lecture_notes/L13-environments.md
-    # - title: Python for geophysical data analysis
-    #   children:
-    #     - file: lecture_notes/L13-pandas01.ipynb
-    #     - file: lecture_notes/L13-pandas02.ipynb
-    #     - file: lecture_notes/L14-pandas03.ipynb
-    #     - file: lecture_notes/L19-xarray02.ipynb
-    #     - file: lecture_notes/L21-data-formats.ipynb
-    #     - file: lecture_notes/L22-xarray.ipynb
-    #     - file: lecture_notes/L23-cartopy.ipynb
-    # - title: Crash course in statistics
-    #   children:
-    #     - file: lecture_notes/L24-gmprocess.ipynb
-    # - title: Appendix
-    #   children:
-    #     - file: book_pages/appendix.md
+        - file: lecture_notes/05_conda-VSCode.md
+        - file: lecture_notes/06_numpy-plot.ipynb
     
 site:
   template: book-theme

@@ -29,7 +29,8 @@ project:
       children:
         - file: lecture_notes/04_intro-python.md
         - file: lecture_notes/05_conda-VSCode.md
-        - file: lecture_notes/06_numpy-plot.ipynb
+        - file: lecture_notes/06_numpy.ipynb
+        - file: lecture_notes/07_matplotlib.ipynb
     
 site:
   template: book-theme

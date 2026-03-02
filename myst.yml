@@ -31,6 +31,10 @@ project:
         - file: lecture_notes/05_conda-VSCode.md
         - file: lecture_notes/06_numpy.ipynb
         - file: lecture_notes/07_matplotlib.ipynb
+    - title: Probability and Statistics
+      children:
+        - file: lecture_notes/08_Probability_RanVar.md
+        # - file: lecture_notes/09_statistical-uncertainty.md
     
 site:
   template: book-theme

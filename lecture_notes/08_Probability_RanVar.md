@@ -75,7 +75,7 @@ Operations on events follow set operations:
 
 In a finite or countable setting, *every* subset is a valid event.
 
----
+ 
 
 ### Probability Measure
 
@@ -369,7 +369,7 @@ Just as a single random variable is a deterministic function of $\,\omega \in \O
 
 We will focus mainly on the two‑dimensional case $(X,Y)$, but all definitions extend naturally to higher dimensions.
 
----
+ 
 
 ## Joint Distributions
 
@@ -389,7 +389,7 @@ Properties:
 - $\lim_{x,y \to +\infty} F_{X,Y}(x,y) = 1$.
 - Right‑continuous in each variable.
 
----
+ 
 
 ### Joint Probability Density Function (Joint PDF)
 
@@ -411,7 +411,7 @@ $$
 \iint_{\mathbb{R}^2} f_{X,Y}(x,y)\, \mathrm{d}x\, \mathrm{d}y = 1.
 $$
 
----
+ 
 
 ## Marginal Distributions
 
@@ -436,7 +436,7 @@ If $(X,Y)$ has joint PDF $f_{X,Y}$, then:
 Interpretation:
 > The joint PDF describes the full 2D distribution, while a marginal PDF gives the distribution of one variable considered on its own.
 
----
+ 
 
 ## Independence
 
@@ -465,7 +465,7 @@ It is possible for $X$ and $Y$ to be dependent even if $\mathrm{Cov}(X,Y)=0$.
 Thus:
 > Zero covariance does **not** imply independence.
 
----
+ 
 
 ### Consequences of Independence
 
@@ -500,7 +500,7 @@ $$
 
 This is *not* generally true without independence.
 
----
+ 
 
 ## Conditional Probability
 
@@ -523,7 +523,7 @@ $$
 
 This identity is often used as the starting point for defining conditional densities.
 
----
+ 
 
 ### Conditional PDFs
 
@@ -558,7 +558,7 @@ It has the properties
    $$
    so conditioning on $Y$ has no effect on the PDF of $X$.
 
----
+ 
 
 ### Conditional Expectation
 
@@ -586,7 +586,7 @@ We note the key identities
   $$
   (conditioning on $Y$ provides no information about $X$).
 
----
+ 
 
 ## Bayes' Rule
 
@@ -608,7 +608,7 @@ $$
 = \mathbb{P}(B \mid A)\mathbb{P}(A).
 $$
 
----
+ 
 
 ### Likelihood, Prior, and Posterior
 
@@ -640,7 +640,7 @@ $$
 $$
 acts as a normalization constant.
 
----
+ 
 
 ### Example: Medical Testing and Base Rates
 
@@ -691,7 +691,7 @@ This is because the disease is **rare**, and most positives come from false posi
 
 This phenomenon—counterintuitive but ubiquitous—is the **base-rate effect**.
 
----
+ 
 
 ## Key Points
 

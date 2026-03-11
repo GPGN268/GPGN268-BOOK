@@ -634,9 +634,7 @@ $$
 
 The denominator
 $$
-\mathbb{P}(B) 
-= \mathbb{P}(B\mid A)\mathbb{P}(A)
- + \mathbb{P}(B\mid A^c)\mathbb{P}(A^c)
+\mathbb{P}(B) = \mathbb{P}(B\mid A)\mathbb{P}(A) + \mathbb{P}(B\mid A^c)\mathbb{P}(A^c)
 $$
 acts as a normalization constant.
 

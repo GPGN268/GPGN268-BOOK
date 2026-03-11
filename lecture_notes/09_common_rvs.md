@@ -4,17 +4,18 @@
 - Understand the definitions and basic properties of the most common random variables used in probability, statistics, and geophysics.
 - Work with CDFs/PDFs and expectations for:
   - Bernoulli
+  - Binomial
   - Geometric
   - Uniform
   - Exponential
   - Gaussian (Normal)
-- Build intuition for the Law of Large Numbers (LLN) and the Central Limit Theorem (CLT).
 - Connect these distributions to modeling choices in geophysical problems.
 
 
 ## Motivation
 Many models in geophysics involve simple stochastic components:
 - Sensor failures → Bernoulli
+- Number of detections in repeated trials → Binomial
 - Number of seismic events until the first detection → Geometric
 - Modeling unknown phase or angle → Uniform
 - Waiting times between nuclear decay events → Exponential
@@ -52,7 +53,6 @@ Then
 - Models a “yes/no” event: arrival/no arrival, failure/success, detection/no detection.
 - Often used as building blocks for more complex models (e.g., Binomial, Bernoulli processes).
 
-
 ### Geometric Random Variable
 The geometric distribution measures the number of independent Bernoulli trials needed until the first success.
 
@@ -75,6 +75,31 @@ Then
 #### Interpretation
 - Models waiting time (in *counts*) until a success.
 - Example: number of seismic traces until the first clear reflection.
+
+### Binomial Random Variable
+The binomial distribution counts the number of successes in a fixed number of independent Bernoulli trials.
+
+#### Definition
+Let  
+```math
+X \sim \text{Binomial}(n,p), \quad n \in \mathbb{N}, \; p \in [0,1].
+```
+Then for $k=0,1,\dots,n$,
+```math
+\mathbb{P}(X=k) = \binom{n}{k} p^k (1-p)^{n-k}.
+```
+
+#### Expectation and Variance
+```math
+\mathbb{E}[X] = np, \qquad
+\mathrm{Var}(X) = np(1-p).
+```
+
+#### Interpretation
+- Models the count of successes in a fixed number of repeated trials.
+- Example: number of stations that successfully detect an event out of $n$ stations, assuming each station detects independently with probability $p$.
+- Can be viewed as the sum of $n$ independent Bernoulli random variables.
+
 
 
 ## Continuous Random Variables
@@ -184,63 +209,12 @@ f_X(x)=
 - Arises from many small independent perturbations.
 - Stable under linear transformations and sums.
 
-
-## Limit Theorems
-These theorems bridge between _probability_ and _statistics_. We are now starting to think about how to do things when we have only finite amount of data.
-
-### Law of Large Numbers (LLN)
-
-#### Statement (informal)
-Let $X_1, X_2, \dots$ be independent and identically distributed (i.i.d.) random variables with 
-$$\mathbb{E}[X_i] = \mu, \qquad \mathrm{Var}(X_i)=\sigma^2<\infty. $$
-Define the sample average  
-```math
-\overline{X}_n = \frac{1}{n}\sum_{i=1}^n X_i.
-```
-
-<!-- ```{admonition} Statement (informal) -->
-As $n\to\infty$,
-$$\overline{X}_n \to \mu \quad \text{with high probability}.$$
-and
-```math
-\mathrm{Var}(\overline{X}_N)
-= \mathrm{Var}\!\left(\frac{1}{N}\sum_{i=1}^N X_i\right)
-= \frac{1}{N^2}\sum_{i=1}^N \mathrm{Var}(X_i)
-= \frac{\sigma^2}{N}.
-```
-<!-- ``` -->
-
-#### Intuition
-- When averaging many independent measurements, random fluctuations “cancel out.”
-- The average stabilizes around the true mean.
-- The distance from the true mean (the standard deviation) scales as $1/\sqrt{N}$.
-- In geophysics: stacking traces reduces noise because signal adds coherently, noise adds incoherently.
-
- 
-### Central Limit Theorem (CLT)
-Let $X_1,\dots,X_n$ be i.i.d. with mean $\mu$ and variance $\sigma^2$.
-
-#### Statement (informal)
-The normalized sum  
-```math
-Z_n=
-\frac{\sum_{i=1}^n X_i - n\mu}{\sigma\sqrt{n}}
-```
-approaches a standard normal distribution as $n\to\infty$:
-```math
-Z_n \Rightarrow \mathcal{N}(0,1).
-```
-
-#### Intuition
-- Many small independent effects aggregate to produce a Gaussian shape.
-- Even if the underlying distribution is not Gaussian, the sum behaves Gaussian.
-- Explains why normal noise models are widely applicable.
-
  
 ## Key Points
-- Bernoulli and Geometric model discrete success/failure processes.
+- Bernoulli models a single success/failure outcome.
+- Binomial models the number of successes in a fixed number of trials.
+- Geometric models waiting time until the first success.
 - Uniform models complete uncertainty on a bounded interval.
 - Exponential models memoryless waiting times.
 - Gaussian models aggregated random effects and noise.
-- LLN: averages converge to the true mean.
-- CLT: sums (properly scaled) converge to a Gaussian regardless of original distribution.
+

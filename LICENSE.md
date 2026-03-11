@@ -1,4 +1,4 @@
-Generative AI tools has been used to solely improve style of language in this note.
+Generative AI tools has been used to generate some content in this course and improve style of language and code. All materials have been vetted by the author and he takes sole responsibility of the accuracy of the content.
 
 Copyright (c) [2025] [Ryan Shìjié Dù].
 

@@ -1,4 +1,4 @@
-# Common Random Variables & Limit Theorems
+# Common Random Variables
 
 ## Learning Objectives
 - Understand the definitions and basic properties of the most common random variables used in probability, statistics, and geophysics.

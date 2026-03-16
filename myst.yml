@@ -36,6 +36,11 @@ project:
         - file: lecture_notes/08_Probability_RanVar.md
         - file: lecture_notes/09_common_rvs.md
         - file: lecture_notes/10_Statistical_inference.ipynb
+    - title: Python for Geophysical Data Analysis
+      children:
+        - file: lecture_notes/11_pandas.ipynb
+        # - file: lecture_notes/09_common_rvs.md
+        # - file: lecture_notes/10_Statistical_inference.ipynb
     
 site:
   template: book-theme

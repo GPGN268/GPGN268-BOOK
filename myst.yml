@@ -40,6 +40,7 @@ project:
       children:
         - file: lecture_notes/11_pandas.ipynb
         - file: lecture_notes/12_xarray.ipynb
+        - file: lecture_notes/13_cartopy.ipynb
         # - file: lecture_notes/09_common_rvs.md
         # - file: lecture_notes/10_Statistical_inference.ipynb
     
